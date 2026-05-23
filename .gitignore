@@ -1,0 +1,27 @@
+node_modules/
+.pnpm-store/
+.DS_Store
+
+apps/**/dist/
+packages/**/dist/
+
+# env
+.env
+.env.*
+
+# build/cache
+.vite/
+.turbo/
+.cache/
+*.tsbuildinfo
+pnpm-debug.log*
+
+# local data
+/data/uploads/
+/data/projects/
+/data/remotion-cache/
+/data/remotion-binaries/
+/data/settings.json
+
+# logs
+*.log
